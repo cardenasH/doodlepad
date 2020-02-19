@@ -1,6 +1,3 @@
-// const mainDiv = document.querySelector('.container');
-// const createDiv = document.createElement('div');
-
 function createDivs(num) {
     const mainDiv = document.querySelector('.container');
     
