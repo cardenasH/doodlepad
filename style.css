@@ -1,0 +1,36 @@
+.gridRow {
+    border: 1px solid blue;
+    display: inline-block;
+    flex-direction: column;
+    width: 25px;
+    height: 25px;
+    margin: 0;
+}
+
+.gridColumn {
+    border: 1px solid blue;
+    display: inline-block;
+    flex-direction: row;
+    width: 25px;
+    height: 25px;
+    margin: 0;
+}
+
+
+div {
+    
+    vertical-align: top;
+    background-color: seashell;
+}
+
+.container {
+    background-color: salmon;
+    display: inline-flex;
+    flex-wrap: wrap;
+    border:5px dotted red;
+}
+
+body {
+    text-align: center;
+    margin-top: 2%;
+}
