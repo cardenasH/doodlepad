@@ -49,3 +49,11 @@ function createGrid() {
     createRows();
     changeColor();
 }
+
+function clearGrid() {
+    const rowRemove = document.querySelectorAll(".gridRow");
+    for(var i = rowRemove.length - 1; 0 <= i; i--)
+    if(rowRemove[i] && rowRemove[i].parentElement)
+    rowRemove[i].parentElement.removeChild(rowRemove[i]);
+    
+}
